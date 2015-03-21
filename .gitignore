@@ -1,0 +1,10 @@
+/_dev/*
+/_drafts/*
+/_code/*
+/output/
+/output/*
+/content/notebooks/.ipynb_checkpoints
+/content/notebooks/.ipynb_checkpoints/*
+/*.pyc
+/*.pid
+/cache/*

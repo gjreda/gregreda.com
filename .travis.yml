@@ -1,0 +1,14 @@
+language: python
+python:
+    - "2.7"
+install:
+    - "sudo apt-get install s3cmd"
+    - "pip install -r requirements.txt"
+env:
+    S3_BUCKET_PROD=s3://www.gregreda.com
+script: "pelican content/"
+after_success:
+    # AWS keys declared in Travis repo settings
+    - "echo 'access_key = $AWS_ACCESS_KEY' > .s3cfg"
+    - "echo 'secret_key = $AWS_SECRET_KEY' >> .s3cfg"
+    - '[[ "$TRAVIS_BRANCH" == "master" ]] && cd output/ && s3cmd sync -r * $S3_BUCKET_PROD --acl-public --delete-removed --guess-mime-type'
