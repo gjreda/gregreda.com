@@ -1,0 +1,3 @@
+[submodule "void"]
+    path = void
+    url = git://github.com/gjreda/void.git
