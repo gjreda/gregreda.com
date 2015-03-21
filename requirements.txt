@@ -1,5 +1,4 @@
 backports.ssl-match-hostname==3.4.0.2
-beautifulsoup4==4.3.2
 certifi==14.5.14
 gnureadline==6.3.3
 ipython==2.3.0
