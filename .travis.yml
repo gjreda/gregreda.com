@@ -1,16 +1,18 @@
 language: python
 python:
     - "2.7"
+cache: apt
 install:
     # - "sudo apt-get install s3cmd"
+    - "sudo apt-get install pandoc"
     - "pip install -r requirements.txt"
 env:
-    S3_BUCKET_PROD=s3://www.gregreda.com
-    S3_BUCKET_DEV=s3://dev.gregreda.com
+    S3_BUCKET_PROD="s3://www.gregreda.com"
+    S3_BUCKET_DEV="s3://dev.gregreda.com"
 script: "pelican content/"
 deploy:
     provider: s3
-    access_key_id: $AWS_ACCESS_KEY
+    access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
     secret_access_key: $AWS_SECRET_KEY
     bucket: $S3_BUCKET_DEV
     endpoint: dev.gregreda.com.s3-website-us-east-1.amazonaws.com
