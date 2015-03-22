@@ -11,8 +11,8 @@ deploy:
     provider: s3
     access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
     secret_access_key: $AWS_SECRET_KEY
-    bucket: dev.gregreda.com
-    endpoint: dev.gregreda.com.s3-website-us-east-1.amazonaws.com
+    bucket: www.gregreda.com
+    endpoint: www.gregreda.com.s3-website-us-east-1.amazonaws.com
     region: us-east-1
     skip_cleanup: true
     local-dir: output
