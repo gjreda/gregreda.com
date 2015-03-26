@@ -12,7 +12,7 @@ I wanted to focus, but also maintain the flexibility of a static site.
 
 Enter [TravisCI](https://travis-ci.org). Travis is a [continuous integration](http://en.wikipedia.org/wiki/Continuous_integration) (CI) service hosted at GitHub. Setup a `.travis.yml` file, check your code into GitHub, and Travis will build the project based on the steps laid out in your `.travis.yml`. A common use-case of CI is automatically running a test suite against each new commit to make sure a change didn’t break functionality of the app.
 
-Since Pelican is just a Python application, and Travis has S3 integration, I’m now using it to regenerate and deploy my site every time I push a change to on GitHub.
+Since Pelican is just a Python application, and Travis has S3 integration, I’m now using it to regenerate and deploy my site every time I push a change to it on GitHub.
 
 If you’re using Pelican (or any other static site generator) and hosting on S3, here’s how to set things up.
 
@@ -62,7 +62,7 @@ Here’s a quick rundown:
 - `language` - The language in which the application is written. Since we’re using Pelican, it’s Python, but Travis supports a variety of languages. We also specify a version on the next line.
 - `install` - This tells Travis any dependencies that need to be installed via apt-get. Some of my posts have IPython Notebook integration, which uses [pandoc](http://johnmacfarlane.net/pandoc/). I’m also using pip to install the required Python packages (like Pelican).
 - `script` - Your build command. In this case, it’s just `pelican content`, which generates the static site based off of what’s in the content directory. By default, Pelican writes the site to a local directory called `output`, which we need in the deploy step.
-- `deploy` - Since Travis has [S3 deployment](http://docs.travis-ci.com/user/deployment/s3/) built-in, all we need to do is tell it which directory (`local-dir`) to put where (your `bucket` and its related `endpoint` and `region`). Note that we’re also using our AWS keys - the variable names used here must match what we named them when they were added to our environment variables earlier.
+- `deploy` - Since Travis has [S3 deployment](http://docs.travis-ci.com/user/deployment/s3/) built-in, all we need to do is tell it which directory (`local-dir`) to put where (your `bucket` and its related `endpoint` and `region`). Note that we’re also using our AWS keys - the variable names used here must match the names we provided in the environment variables section earlier.
 - `notifications` - By default, Travis will email you the results of each build. I’ve turned them off, but there are other [notification options](http://docs.travis-ci.com/user/notifications/) as well.
 
 The above is really just a subset of the functionality Travis provides - you can even declare scripts to be run before and after install, or before and after your deploy. Check out the [build configuration](http://docs.travis-ci.com/user/build-configuration/) section of the docs if you’re interested in learning more.
