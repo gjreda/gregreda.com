@@ -54,7 +54,8 @@ deploy:
     acl: public_read
     detect_encoding: true
 notifications:
-    email: false
+    email:
+        on_failure: always
 ```
 
 Here’s a quick rundown:
