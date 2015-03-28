@@ -36,12 +36,12 @@ Lastly, you’ll need to add a `.travis.yml` file to the root of your project. T
 ```
 language: python
 python:
-    - “2.7”
+    - "2.7"
 cache: apt
 install:
-    - “sudo apt-get install pandoc”
-    - “pip install -r requirements.txt”
-script: “pelican content/“
+    - "sudo apt-get install pandoc"
+    - "pip install -r requirements.txt"
+script: "pelican content/"
 deploy:
     provider: s3
     access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
