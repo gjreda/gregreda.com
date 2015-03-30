@@ -1,6 +1,8 @@
 Title: About
 Slug: about
 Template: about
+url: index.html
+save_as: index.html
 
 I'm a freelance data scientist, developer, and occassional writer living in Chicago.
 
