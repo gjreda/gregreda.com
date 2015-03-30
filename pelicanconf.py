@@ -8,10 +8,12 @@ SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Chicago'
 THEME = 'void/'
 AVATAR = '/theme/images/avatar.jpg'
-TITLE = "Greg Reda: Data scientist in Chicago."
-DESCRIPTION = "Greg Reda is a Chicagoan focused on analyzing data to provide\
- insight and drive decisions. He loves stats, startups, sports, beer, and music."
+TITLE = "Greg Reda: independent data science and strategy consulting."
+DESCRIPTION = "Greg Reda is an independent data science and strategy \
+consultant, helping clients effectively utilize data to gain insight, \
+inform decisions, and grow their business."
 
+# TODO: switch to /blog/slug/index.html -- need to setup redirects first
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
@@ -43,24 +45,21 @@ EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 
-# NAVBAR
+# TODO: NAVBAR - make it dynamic
 NAVIGATION = [
     (),
 ]
 
-# SOCIAL
+# TODO: SOCIAL - make it dynamic
 TWITTER_CARDS = True
 TWITTER_NAME = "gjreda"
 GITHUB_NAME = 'gjreda'
 LINKEDIN_URL = 'http://linkedin.com/in/gjreda'
 GOOGLE_PLUS_URL = 'https://plus.google.com/111658599948853828157?rel=author'
 LASTFM_NAME = 'gjreda'
-# DISQUS_SITENAME = 'gregreda'
-# GITTIP_NAME = 'gjreda'
 
 #### Analytics
 GOOGLE_ANALYTICS = 'UA-34295039-1'
-GOOGLE_ADSENSE = False
 DOMAIN = "gregreda.com"
 
 # Other
