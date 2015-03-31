@@ -1,10 +1,10 @@
 Title: More web scraping with Python (and a map)
-Date: 2013-05-06
+Date: 2013-04-29
 Slug: more-web-scraping-with-python
 Tags: scraping, python, data, tutorial, maps
 Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1491910291&asins=1491910291&linkId=PJJ5LM64VYPKSWVT&show_border=true&link_opens_in_new_window=true"></iframe>
 
-_This is a follow-up to my [previous post](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/ "Web Scraping 101 with Python") about web scraping with Python_.
+_This is a follow-up to my [previous post](/2013/03/03/web-scraping-101-with-python/ "Web Scraping 101 with Python") about web scraping with Python_.
 
 Previously, I wrote a basic intro to scraping data off of websites.  Since I wanted to keep the intro fairly simple, I didn't cover storing the data.  In this post, I'll cover the basics of writing the scraped data to a flat file and then take things a bit further from there.
 

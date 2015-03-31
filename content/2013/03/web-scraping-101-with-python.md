@@ -5,7 +5,7 @@ Tags: scraping, python, data, tutorial
 Description: A beginner's guide to getting started with web scraping using Python and BeautifulSoup.
 Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1491910291&asins=1491910291&linkId=PJJ5LM64VYPKSWVT&show_border=true&link_opens_in_new_window=true"></iframe>
 
-_After you're done reading, check out my follow-up to this post [here](http://www.gregreda.com/2013/04/29/more-web-scraping-with-python/)._
+_After you're done reading, check out my follow-up to this post [here](/2013/04/29/more-web-scraping-with-python/)._
 
 Yea, yea, I know I said I was going to [write more](http://www.gregreda.com/2013/01/23/translating-sql-to-pandas-part1/) on [pandas](http://pandas.pydata.org), but recently I've had a couple friends ask me if I could teach them how to scrape data.  While they said they were able to find a ton of resources online, all assumed some level of knowledge already.  Here's my attempt at assuming a very minimal knowledge of programming.
 
