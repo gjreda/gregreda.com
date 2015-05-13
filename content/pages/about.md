@@ -1,15 +1,13 @@
-Title: About
+Title: Home
 Slug: about
 Template: about
 url: index.html
 save_as: index.html
 
-I'm a freelance data scientist, developer, and occassional writer living in Chicago.
 
-Previously, I was the first data hire at [GrubHub](https://www.grubhub.com/), 
-where I led the data team for three years. 
-I've also worked at [Datascope](http://www.datascopeanalytics.com) 
-and [PwC](http://www.pwc.com).
+I’m a freelance data scientist and developer based in Chicago, where I help clients effectively utilize data to answer questions, solve problems, and grow their business. 
+
+Previously, I was the first data hire at GrubHub, where I led the data team for three years. I’ve also worked at [Datascope](http://datascopeanalytics.com/) and [PwC](http://www.pwc.com/us/en/index.jhtml).
 
 I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work).
 
