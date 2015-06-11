@@ -35,6 +35,14 @@ I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work)
 - Gigaom, July 2013
 
 ## Talks
+**Panel: Do you need context or is data enough?**
+
+- UNSTRUCTURED: Data Science Pop-up, Chicago
+
+**Web Scraping**
+
+- UNSTRUCTURED: Data Science Pop-up, Chicago [[Slides](https://github.com/gjreda/datapopup2015chi)]
+
 [Translating SQL to pandas. And back.](http://reda.io/pydata2014nyc)
 
 - PyData, New York, NY [[Video](http://reda.io/pydata2014nyc)] [[Slides](http://reda.io/sql2pandas)]
