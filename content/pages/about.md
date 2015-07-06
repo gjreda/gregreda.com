@@ -41,7 +41,7 @@ I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work)
 
 **Web Scraping**
 
-- UNSTRUCTURED: Data Science Pop-up, Chicago [[Slides](https://github.com/gjreda/datapopup2015chi)]
+- UNSTRUCTURED: Data Science Pop-up, Chicago [[Video](https://youtu.be/L5CA9SKzwrc)] [[Slides](https://github.com/gjreda/datapopup2015chi)]
 
 [Translating SQL to pandas. And back.](http://reda.io/pydata2014nyc)
 
