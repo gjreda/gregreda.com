@@ -12,7 +12,7 @@ Previously, I was the first data hire at GrubHub, where I led the data team for 
 I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work).
 
 <center>
-<hr class=“small”>
+<hr class="small">
 ## Press
 [Interview: Boost Data Literacy to Advance In Business](http://news.investors.com/management-leaders-in-success/020615-738296-data-literate-executives-understand-big-data-analytics.htm)
 
@@ -34,6 +34,7 @@ I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work)
 
 - Gigaom, July 2013
 
+<hr class="small">
 ## Talks
 **Panel: Do you need context or is data enough?**
 
