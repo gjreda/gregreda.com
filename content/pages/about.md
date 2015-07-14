@@ -38,7 +38,7 @@ I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work)
 ## Talks
 **Panel: Do you need context or is data enough?**
 
-- UNSTRUCTURED: Data Science Pop-up, Chicago
+- UNSTRUCTURED: Data Science Pop-up, Chicago [[Video](https://youtu.be/jqESE8roAfE)]
 
 **Web Scraping**
 
