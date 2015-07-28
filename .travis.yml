@@ -18,6 +18,9 @@ deploy:
     local-dir: output
     acl: public_read
     detect_encoding: true
+branches:
+    only:
+        - master
 notifications:
     email:
         on_failure: always
