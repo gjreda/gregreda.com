@@ -39,7 +39,7 @@ I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work)
 
 **Why data-informed beats data-driven**
 
-- PyData, Seattle, 2015 [[Slides](https://github.com/gjreda/pydata2015sea)]
+- PyData, Seattle, 2015 [[Video](https://youtu.be/yHo3B3BbppM)] [[Slides](https://github.com/gjreda/pydata2015sea)]
 
 **Panel: Do you need context or is data enough?**
 
