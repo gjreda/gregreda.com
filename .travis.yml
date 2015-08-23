@@ -4,7 +4,7 @@ python:
 # http://stackoverflow.com/questions/15674064/github-submodule-access-rights-travis-ci
 cache: apt
 git:
-    - submodules: false
+    submodules: false
 before_install:
     - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
     - git submodule update --init --recursive
