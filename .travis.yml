@@ -5,12 +5,14 @@ python:
 cache: apt
 git:
     submodules: false
+virtualenv:
+    system_site_packages: true
 before_install:
     - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
     - git submodule update --init --recursive
 install:
     # - "sudo apt-get install s3cmd"
-    - "sudo apt-get install pandoc"
+    - "sudo apt-get install -qq pandoc python-numpy python-scipy"
     - "pip install -r requirements.txt"
 script: "pelican content/"
 deploy:
