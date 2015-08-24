@@ -12,7 +12,7 @@ before_install:
     - git submodule update --init --recursive
 install:
     # - "sudo apt-get install s3cmd"
-    - "sudo apt-get install -qq liblapack-dev pandoc python-numpy python-scipy"
+    - "sudo apt-get install -qq pandoc"
     - "pip install -r requirements.txt"
 script: "pelican content/"
 deploy:
