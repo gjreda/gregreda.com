@@ -12,7 +12,7 @@ before_install:
     - git submodule update --init --recursive
 install:
     # - "sudo apt-get install s3cmd"
-    - "sudo apt-get install -qq pandoc libblas-dev liblapack-dev"
+    - "sudo apt-get install -qq pandoc libblas-dev liblapack-dev gfortran"
     - "pip install -r requirements.txt"
 script: "pelican content/"
 deploy:
