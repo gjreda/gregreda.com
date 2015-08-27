@@ -1,7 +1,6 @@
 language: python
 python:
     - "2.7"
-sudo: false
 # http://stackoverflow.com/questions/15674064/github-submodule-access-rights-travis-ci
 cache: apt
 git:
