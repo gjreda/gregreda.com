@@ -9,7 +9,7 @@ I’m a data scientist consultant and developer based in Chicago, where I help c
 
 Previously, I was the first data hire at GrubHub, where I led the data team for three years. I’ve also worked at [Datascope](http://datascopeanalytics.com/) and [PwC](http://www.pwc.com/us/en/index.jhtml).
 
-I'd love to work together. [Get in touch](mailto:greg@gregreda.com?subject=Work).
+I'd love to work together. [Get in touch](mailto:gjreda@gmail.com?subject=Work).
 
 <center>
 <hr class="small">
