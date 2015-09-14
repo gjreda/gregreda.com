@@ -3,7 +3,6 @@
 
 AUTHOR = u'Greg Reda'
 SITENAME = u'Greg Reda'
-EMAIL_ADDRESS = u'gjreda@gmail.com'
 SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Chicago'
 THEME = 'void/'
