@@ -52,6 +52,7 @@ NAVIGATION = [
 # TODO: SOCIAL - make it dynamic
 TWITTER_CARDS = True
 TWITTER_NAME = "gjreda"
+FACEBOOK_SHARE = True
 GITHUB_NAME = 'gjreda'
 LINKEDIN_URL = 'http://linkedin.com/in/gjreda'
 GOOGLE_PLUS_URL = 'https://plus.google.com/111658599948853828157?rel=author'
@@ -62,6 +63,6 @@ GOOGLE_ANALYTICS = 'UA-34295039-1'
 DOMAIN = "gregreda.com"
 
 # Other
-MAILCHIMP = True
+MAILCHIMP = False
 CACHE_CONTENT = False
 AUTORELOAD_IGNORE_CACHE = True
