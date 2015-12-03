@@ -5,7 +5,7 @@ url: index.html
 save_as: index.html
 
 
-I’m a data science consultant and developer based in Chicago, where I help clients effectively utilize data to answer questions, solve problems, and grow their business. 
+I’m a data science consultant and developer based in Chicago, where I help clients effectively utilize data through analytics, statistics, and machine learning. 
 
 Previously, I was the first data hire at GrubHub, where I led the data team for three years. I’ve also worked at [Datascope](http://datascopeanalytics.com/) and [PwC](http://www.pwc.com/us/en/index.jhtml).
 
