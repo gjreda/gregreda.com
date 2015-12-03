@@ -7,7 +7,7 @@ save_as: index.html
 
 I’m a data science consultant and developer based in Chicago, where I help clients effectively utilize data through analytics, statistics, and machine learning. 
 
-Previously, I was the first data hire at GrubHub, where I led the team focused on data research, A/B testing, and product analytics.
+Previously, I was the first data science hire at [GrubHub](http://www.grubhub.com/), where I led the team focused on data research, A/B testing, and product analytics.
 
 I've also spent time at [Datascope](http://datascopeanalytics.com/), where I helped an NBA team with draft prep and scouting through the use of advanced analytics, and [PwC](http://www.pwc.com/us/en/index.jhtml), where I focused on analytics related to fraud, investigations, and litigation.
 
