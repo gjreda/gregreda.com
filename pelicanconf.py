@@ -7,7 +7,7 @@ SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Chicago'
 THEME = 'void/'
 AVATAR = '/theme/images/avatar.jpg'
-TITLE = "Greg Reda: independent data science and strategy consulting."
+TITLE = "Greg Reda: a data scientist based in Chicago."
 DESCRIPTION = "Greg Reda is an independent data science and strategy \
 consultant, helping clients effectively utilize data to gain insight, \
 inform decisions, and grow their business."
@@ -44,19 +44,19 @@ EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 
-# TODO: NAVBAR - make it dynamic
 NAVIGATION = [
-    (),
+    {'site': 'twitter', 'user': 'gjreda', 'url': 'https://twitter.com/gjreda'},
+    {'site': 'github', 'user': 'gjreda', 'url': 'https://github.com/gjreda'},
+    {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
+    {'site': 'google-plus', 'user': 'gjreda', 'url': 'https://plus.google.com/111658599948853828157?rel=author'},
+    {'site': 'spotify', 'user': 'gjreda', 'url': 'https://open.spotify.com/user/gjreda'},
 ]
 
 # TODO: SOCIAL - make it dynamic
 TWITTER_CARDS = True
 TWITTER_NAME = "gjreda"
 FACEBOOK_SHARE = True
-GITHUB_NAME = 'gjreda'
-LINKEDIN_URL = 'http://linkedin.com/in/gjreda'
-GOOGLE_PLUS_URL = 'https://plus.google.com/111658599948853828157?rel=author'
-LASTFM_NAME = 'gjreda'
+HACKER_NEWS_SHARE = True
 
 #### Analytics
 GOOGLE_ANALYTICS = 'UA-34295039-1'
