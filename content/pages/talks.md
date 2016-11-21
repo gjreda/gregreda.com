@@ -1,6 +1,9 @@
 Title: Talks
 
 ## Talks
+**Demystifying Data Science**
+
+- Metis, Chicago Grand Opening, October 2016 [[Slides](https://github.com/gjreda/talks/tree/master/metis2016chi)]
 
 **Why data-informed beats data-driven**
 
