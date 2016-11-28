@@ -12,7 +12,6 @@ DESCRIPTION = "Greg Reda is an independent data science and strategy \
 consultant, helping clients effectively utilize data to gain insight, \
 inform decisions, and grow their business."
 
-# TODO: switch to /blog/slug/index.html -- need to setup redirects first
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
