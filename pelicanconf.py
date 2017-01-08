@@ -34,7 +34,7 @@ TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
-PLUGINS = ['assets', 'liquid_tags.notebook', 'pelican_dynamic', 'render_math']
+PLUGINS = ['assets', 'liquid_tags.notebook', 'pelican_dynamic']
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
