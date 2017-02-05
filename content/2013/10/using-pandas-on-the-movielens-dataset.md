@@ -15,7 +15,7 @@ _Part 2: [Working with DataFrames](/2013/10/26/working-with-pandas-dataframes/)_
 
 _Part 3: [Using pandas with the MovieLens dataset](/2013/10/26/using-pandas-on-the-movielens-dataset/)_
 
-{% notebook intro-to-pandas.ipynb cells[124:] %}
+{% notebook notebooks/intro-to-pandas.ipynb cells[124:] %}
 
 **Closing**
 

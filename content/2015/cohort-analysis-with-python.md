@@ -29,7 +29,7 @@ It’s also a good way to visualize your user retention/churn as well as formula
 ## An example
 Imagine we have the following dataset (you can find it [here](http://dmanalytics.org/wp-content/uploads/2014/10/chapter-12-relay-foods.xlsx)):
 
-{% notebook cohort-analysis.ipynb cells[1:2] %}
+{% notebook notebooks/cohort-analysis.ipynb cells[1:2] %}
 
 Pretty standard purchase data with IDs for the order and user, as well as the order date and purchase amount.
 
@@ -40,7 +40,7 @@ We want to go from the data above to something like this:
 Here’s how we get there.
 
 ## Code
-{% notebook cohort-analysis.ipynb %}
+{% notebook notebooks/cohort-analysis.ipynb %}
 
 ## Further work
 User retention is only one way of using cohorts to look at your business — we could have also looked at revenue retention. That is, the percentage of each cohort’s month 1 revenue returning in subsequent periods. User retention is important, but we shouldn’t lose sight of the revenue each cohort is bringing in (and how much of it is returning).
@@ -55,4 +55,3 @@ Hopefully you’ve found this post useful. If I’ve missed anything, [let me kn
 
 <hr class="small" id="footnotes"></hr>
 1. While a purchase might not be at the core of these businesses, they still might occur (e.g. "Buy" buttons on tweets are of value to Twitter, but users and engagement are what the platform is about).
-
