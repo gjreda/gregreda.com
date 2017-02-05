@@ -5,12 +5,22 @@ AUTHOR = u'Greg Reda'
 SITENAME = u'Greg Reda'
 SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Chicago'
-THEME = 'void/'
-AVATAR = '/theme/images/avatar.jpg'
 TITLE = "Greg Reda: a data scientist based in Chicago."
 DESCRIPTION = "Greg Reda is an independent data science and strategy \
 consultant, helping clients effectively utilize data to gain insight, \
 inform decisions, and grow their business."
+
+# Variables for theme
+THEME = 'void/'
+LOGO_IMAGE = '/images/logo.jpg'
+COPYRIGHT_START_YEAR = 2013
+NAVIGATION = [
+    {'site': 'twitter', 'user': 'gjreda', 'url': 'https://twitter.com/gjreda'},
+    {'site': 'github', 'user': 'gjreda', 'url': 'https://github.com/gjreda'},
+    {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
+    {'site': 'google-plus', 'user': 'gjreda', 'url': 'https://plus.google.com/111658599948853828157?rel=author'},
+    {'site': 'spotify', 'user': 'gjreda', 'url': 'https://open.spotify.com/user/gjreda'},
+]
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -32,9 +42,11 @@ DEFAULT_PAGINATION = False
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
 
+MARKUP = ('md', 'ipynb')
+
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
-PLUGINS = ['assets', 'liquid_tags.notebook', 'pelican_dynamic']
+PLUGINS = ['assets', 'ipynb.liquid', 'pelican_dynamic']
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
@@ -42,14 +54,6 @@ EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
-
-NAVIGATION = [
-    {'site': 'twitter', 'user': 'gjreda', 'url': 'https://twitter.com/gjreda'},
-    {'site': 'github', 'user': 'gjreda', 'url': 'https://github.com/gjreda'},
-    {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
-    {'site': 'google-plus', 'user': 'gjreda', 'url': 'https://plus.google.com/111658599948853828157?rel=author'},
-    {'site': 'spotify', 'user': 'gjreda', 'url': 'https://open.spotify.com/user/gjreda'},
-]
 
 # TODO: SOCIAL - make it dynamic
 TWITTER_CARDS = True
