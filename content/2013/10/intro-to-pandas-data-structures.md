@@ -7,6 +7,6 @@ Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" margin
 
 _UPDATE: If you're interested in learning pandas from a SQL perspective and would prefer to watch a video, you can find video of my 2014 PyData NYC talk [here](http://reda.io/sql2pandas)._
 
-{% notebook intro-to-pandas.ipynb cells[0:56] %}
+{% notebook notebooks/intro-to-pandas.ipynb cells[0:56] %}
 
 _Move onto the next section, which covers [working with DataFrames](/2013/10/26/working-with-pandas-dataframes/)._
