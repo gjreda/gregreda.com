@@ -50,7 +50,7 @@ PLUGINS = ['assets', 'ipynb.liquid', 'pelican_dynamic']
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
-EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+# EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
