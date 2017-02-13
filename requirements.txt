@@ -54,4 +54,3 @@ wcwidth==0.1.7
 webassets==0.12.1
 wheel==0.26.0
 widgetsnbextension==1.2.6
-xgboost==0.6
