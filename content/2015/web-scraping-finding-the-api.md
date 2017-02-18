@@ -4,7 +4,9 @@ Slug: web-scraping-finding-the-api
 Tags: scraping, python, data, tutorial
 Description: When a page is rendered client-side, scraping can be difficult. Here’s how to find the API used so you’re able to get the data needed.
 
-**Update**: Sorry folks, it looks like the NBA doesn't make shot log data accessible anymore. The same principles of this post still apply, but the particularly example used is no longer functional. I do not intend to rewrite or update this post.
+**Update**: Sorry folks, it looks like the NBA doesn't make shot log data accessible anymore. The same principles of this post still apply, but the particular example used is no longer functional. I do not intend to rewrite or update this post.
+
+<hr>
 
 Previously, I explained [how to scrape a page](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/) where the data is rendered *server-side*. However, the increasing popularity of Javascript frameworks such as [AngularJS](https://angularjs.org) coupled with [RESTful APIs](http://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services) means that fewer sites are generated server-side and are instead being rendered *client-side*.
 
