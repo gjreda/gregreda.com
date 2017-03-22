@@ -46,7 +46,7 @@ MARKUP = ('md', 'ipynb')
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
-PLUGINS = ['assets', 'ipynb.liquid', 'pelican_dynamic']
+PLUGINS = ['assets', 'pelican-ipynb.liquid', 'pelican_dynamic']
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
