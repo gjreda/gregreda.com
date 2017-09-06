@@ -1,6 +1,10 @@
 Title: Press
 
 ## Press
+[11 Tech Leaders Share The Real Truth About Artificial Intelligence](https://www.forbes.com/sites/tompopomaronis/2017/08/29/11-tech-leaders-share-insights-on-artificial-intelligence-and-what-actually-matters/2/#41298ab2c1ff)
+
+- Forbes, August 2017
+
 [Interview: Boost Data Literacy to Advance In Business](http://news.investors.com/management-leaders-in-success/020615-738296-data-literate-executives-understand-big-data-analytics.htm)
 
 - Investor's Business Daily, February 2015
