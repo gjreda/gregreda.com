@@ -1,6 +1,10 @@
 Title: Talks
 
 ## Talks
+**Data-Driven Chicago**
+
+- Data-Driven Chicago Meetup, November 2017 [[Video](https://www.youtube.com/watch?v=psAnR1FxzIk)]
+
 **Demystifying Data Science**
 
 - Metis, Chicago Grand Opening, October 2016 [[Slides](https://github.com/gjreda/talks/tree/master/metis2016chi)]
