@@ -20,6 +20,7 @@ NAVIGATION = [
     {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
     {'site': 'google-plus', 'user': 'gjreda', 'url': 'https://plus.google.com/111658599948853828157?rel=author'},
     {'site': 'spotify', 'user': 'gjreda', 'url': 'https://open.spotify.com/user/gjreda'},
+    {'site': 'bicycle', 'user': 'gjreda', 'url': 'https://www.strava.com/athletes/4403225'},
 ]
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
