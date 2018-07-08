@@ -24,6 +24,7 @@ deploy:
     local-dir: output
     acl: public_read
     detect_encoding: true
+    default_text_charset: 'utf-8'
 branches:
     only:
         - master
