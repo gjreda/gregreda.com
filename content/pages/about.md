@@ -1,6 +1,6 @@
 Title: About
 
-I’m a Chicago-based data scientist and developer at [Sprout Social](http://www.sproutsocial.com). (Psst! [We're hiring](http://sproutsocial.com/careers/open-positions)).
+I’m a Chicago-based data scientist and developer at [Sprout Social](http://www.sproutsocial.com), where I'm currently the Director of Data Science.
 
 Previously, I was the first data science hire at [GrubHub](http://www.grubhub.com/), where I led the team focused on data research, A/B testing, and product analytics.
 
