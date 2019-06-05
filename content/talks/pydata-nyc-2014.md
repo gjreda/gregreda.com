@@ -1,6 +1,6 @@
-Title: [Talk] Translating SQL to pandas. And back.
+Title: [Talk] Translating SQL to pandas
 Date: 2014-12-22
-Slug: translating-sql-to-pandas
+Slug: translating-sql-to-pandas-video
 Tags: pandas, python, sql, talks, tutorial
 Description: Video of my 2014 PyData NYC talk titled "Translating SQL to pandas."
 

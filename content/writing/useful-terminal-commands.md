@@ -1,7 +1,7 @@
 Title: Useful Unix commands for data science
 Date: 2013-07-15
 Slug: unix-commands-for-data-science
-Tags: unix, terminal, data, data science
+Tags: unix, terminal, data, data science, command line, tutorial
 Description: The command line tools that ship with any Unix-like system are extremely handy for many data tasks. Here are some of the ones that I've found most useful.
 Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1491947853&asins=1491947853&linkId=BMTSVBUMC7XEVULJ&show_border=true&link_opens_in_new_window=true"></iframe>
 

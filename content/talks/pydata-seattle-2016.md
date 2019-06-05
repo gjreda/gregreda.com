@@ -1,6 +1,6 @@
 Title: [Talk] Data-Informed vs Data-Driven
 Date: 2016-11-20
-Slug: data-informed-talk-pydata-seattle
+Slug: data-informed-pydata-video
 Tags: talks, thoughts, data science, management
 Description: Video of my PyData Seattle 2015 talk on why we should not be simply data-driven and must seek to incorporate all information into our decisions - quantitative and qualitative - and weight that information appropriately.
 
@@ -16,10 +16,10 @@ Here's its abstract (pardon my snark):
 
 While the actual talk isn't one of my best - I sound like I'm reading from cards (I kind of was) - I'm still a big believer in the overall message.
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yHo3B3BbppM" frameborder="0" allowfullscreen></iframe>
-</center>
-
 We shouldn't be surprised that being data-informed is ultimately a better approach. Simply, we're just adding more information - quantitative _and_ qualitative - to our existing dataset and weighing that information appropriately.
 
 The best decisions make use of all relevant information, not a limited set, much like the best algorithms are those developed with the best data and features.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yHo3B3BbppM" frameborder="0" allowfullscreen></iframe>
+</center>
