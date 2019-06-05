@@ -5,10 +5,8 @@ AUTHOR = u'Greg Reda'
 SITENAME = u'Greg Reda'
 SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Chicago'
-TITLE = "Greg Reda: a data scientist based in Chicago."
-DESCRIPTION = "Greg Reda is an independent data science and strategy \
-consultant, helping clients effectively utilize data to gain insight, \
-inform decisions, and grow their business."
+TITLE = u"Greg Reda"
+DESCRIPTION = u"Greg Reda is a data scientist based in San Francisco"
 
 # Variables for theme
 THEME = 'void/'
@@ -18,13 +16,10 @@ NAVIGATION = [
     {'site': 'twitter', 'user': 'gjreda', 'url': 'https://twitter.com/gjreda'},
     {'site': 'github', 'user': 'gjreda', 'url': 'https://github.com/gjreda'},
     {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
-    {'site': 'google-plus', 'user': 'gjreda', 'url': 'https://plus.google.com/111658599948853828157?rel=author'},
-    {'site': 'spotify', 'user': 'gjreda', 'url': 'https://open.spotify.com/user/gjreda'},
-    {'site': 'bicycle', 'user': 'gjreda', 'url': 'https://www.strava.com/athletes/4403225'},
 ]
 
-ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = '{category}/{slug}/'
+ARTICLE_SAVE_AS = '{category}/{slug}/index.html'
 
 # Static Pages
 PAGE_PATHS = ['pages']
@@ -41,13 +36,28 @@ DEFAULT_PAGINATION = False
 
 # FEEDS
 FEED_ALL_ATOM = "feeds/all.atom.xml"
+CATEGORY_FEED_ATOM = "feeds/category/%s.atom.xml"
 TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
 
 MARKUP = ('md', 'ipynb')
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
-PLUGINS = ['assets', 'pelican-ipynb.liquid', 'pelican_dynamic']
+PLUGINS = ['assets', 'pelican-ipynb.liquid', 'pelican_dynamic', 'sitemap']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'monthly',
+        'pages': 'monthly'
+    }
+}
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
@@ -56,7 +66,6 @@ NOTEBOOK_DIR = 'notebooks'
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 
-# TODO: SOCIAL - make it dynamic
 TWITTER_CARDS = True
 TWITTER_NAME = "gjreda"
 FACEBOOK_SHARE = True
@@ -67,6 +76,5 @@ GOOGLE_ANALYTICS = 'UA-34295039-1'
 DOMAIN = "gregreda.com"
 
 # Other
-MAILCHIMP = False
 CACHE_CONTENT = False
 AUTORELOAD_IGNORE_CACHE = True
