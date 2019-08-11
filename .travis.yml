@@ -2,7 +2,9 @@ language: python
 python:
     - "2.7"
 # http://stackoverflow.com/questions/15674064/github-submodule-access-rights-travis-ci
-cache: apt
+cache:
+    - apt
+    - pip
 git:
     submodules: false
 before_install:
@@ -17,7 +19,7 @@ deploy:
     provider: s3
     access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
     secret_access_key: $AWS_SECRET_KEY
-    bucket: www.gregreda.com
+    bucket: "www.gregreda.com"
     endpoint: "http://www.gregreda.com.s3-website-us-east-1.amazonaws.com"
     region: us-east-1
     skip_cleanup: true
