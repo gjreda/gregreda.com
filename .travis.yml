@@ -27,10 +27,11 @@ deploy:
     acl: public_read
     detect_encoding: true
     default_text_charset: 'utf-8'
-# after_deploy:
-#     # update cloudfront
-#     - "aws configure set preview.cloudfront true"
-#     - "aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths \"/*\""
+after_deploy:
+    # Allow `awscli` to make requests to CloudFront.
+    - "aws configure set preview.cloudfront true"
+    # Invalidate every object in the targeted distribution.
+    - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
 branches:
     only:
         - master
