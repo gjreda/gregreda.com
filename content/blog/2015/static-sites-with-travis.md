@@ -1,7 +1,7 @@
 Title: Using Travis & GitHub to deploy static sites
 Date: 2015-03-26
 Slug: static-site-deployments
-Tags: pelican tutorial travis github
+Tags: pelican, tutorial, travis, github
 Description: A tutorial on setting up TravisCI and GitHub to automate deployment of your static website.
 
 I’m an unabashed supporter of “Keep It Simple, Stupid” solutions - it’s the reason I use [Pelican](http://docs.getpelican.com/en/3.5.0/) for this website and host it on [S3](http://aws.amazon.com/s3/).

@@ -1,5 +1,6 @@
 /_dev/*
 /_code/*
+/content/drafts
 /output/
 /output/*
 /content/notebooks/.ipynb_checkpoints

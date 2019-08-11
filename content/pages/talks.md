@@ -1,15 +1,21 @@
 Title: Talks
 
-## Talks
-**Data-Driven Chicago**
+# Talks
+Here are some talks I've given at various conferences and meetups:
 
-- Data-Driven Chicago Meetup, November 2017 [[Video](https://www.youtube.com/watch?v=psAnR1FxzIk)]
+**Social Conversations: Where Data Science Meets Product**
+
+- Data-Driven Chicago Meetup, November 2, 2017 [[Video](https://www.youtube.com/watch?v=psAnR1FxzIk&t=48m13s)]
+
+**Crunching the Numbers: How to Launch a Career in Data Science**
+
+- General Assembly Chicago, August 23, 2017
 
 **Demystifying Data Science**
 
-- Metis, Chicago Grand Opening, October 2016 [[Slides](https://github.com/gjreda/talks/tree/master/metis2016chi)]
+- Metis, Chicago Grand Opening, October 20, 2016 [[Slides](https://github.com/gjreda/talks/tree/master/metis2016chi)]
 
-**Why data-informed beats data-driven**
+**Why Data-Informed Beats Data-Driven**
 
 - PyData, Seattle, 2015 [[Video](https://youtu.be/yHo3B3BbppM)] [[Slides](https://github.com/gjreda/pydata2015sea)]
 
@@ -21,6 +27,6 @@ Title: Talks
 
 - UNSTRUCTURED: Data Science Pop-up, Chicago, 2015 [[Video](https://youtu.be/L5CA9SKzwrc)] [[Slides](https://github.com/gjreda/datapopup2015chi)]
 
-[Translating SQL to pandas. And back.](http://reda.io/pydata2014nyc)
+[Translating pandas to SQL](http://reda.io/pydata2014nyc)
 
 - PyData, New York, 2014 [[Video](http://reda.io/pydata2014nyc)] [[Slides](http://reda.io/sql2pandas)]

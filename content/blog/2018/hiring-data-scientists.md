@@ -1,7 +1,7 @@
 Title: Hiring Data Scientists
 Date: 2018-02-04
 Slug: hiring-data-scientists
-Tags: data science, hiring, thoughts
+Tags: data science, hiring, thoughts, management
 
 Chicago's a big city that feels small -- everyone seems only a degree or two
 away from one another. This feels especially true within Chicago's tech and data
