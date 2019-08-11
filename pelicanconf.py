@@ -24,8 +24,8 @@ AUTHOR_SAVE_AS = ''  # I'm the only author
 AUTHORS_SAVE_AS = ''
 
 ARTICLE_PATHS = ['blog']
-ARTICLE_URL = '{slug}/'
-ARTICLE_SAVE_AS = '{slug}/index.html'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}/'
