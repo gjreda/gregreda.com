@@ -1,7 +1,7 @@
 Title: [Talk] Data-Informed vs Data-Driven
 Date: 2016-11-20
 Slug: data-informed-pydata-video
-Tags: talks, thoughts, data science, management
+Tags: thoughts, data science, management
 Description: Video of my PyData Seattle 2015 talk on why we should not be simply data-driven and must seek to incorporate all information into our decisions - quantitative and qualitative - and weight that information appropriately.
 
 A while back (July 2015), I was fortunate to speak at PyData in Seattle about the pitfalls of _overreliance_ on data. You can find the slides [here](https://github.com/gjreda/pydata2015sea/blob/4a846a7d069601cc5f886e53863a17d7fd68f2a8/data-informed-vs-data-driven-with-notes.pdf).

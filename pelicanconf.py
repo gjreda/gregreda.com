@@ -4,9 +4,10 @@
 AUTHOR = u'Greg Reda'
 SITENAME = u'Greg Reda'
 SITEURL = 'http://www.gregreda.com'
-TIMEZONE = 'America/Chicago'
+TIMEZONE = 'America/Los_Angeles'
 TITLE = u"Greg Reda"
-DESCRIPTION = u"Greg Reda is a data scientist based in San Francisco"
+DESCRIPTION = u"Greg Reda is a data scientist and software engineer based in San Francisco"
+ABOUT_PAGE_HEADER = 'Nice to meet you.'
 
 # Variables for theme
 THEME = 'void/'
@@ -18,18 +19,22 @@ NAVIGATION = [
     {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
 ]
 
-ARTICLE_URL = '{category}/{slug}/'
-ARTICLE_SAVE_AS = '{category}/{slug}/index.html'
+# URL paths
+AUTHOR_SAVE_AS = ''  # I'm the only author
+AUTHORS_SAVE_AS = ''
 
-# Static Pages
+ARTICLE_PATHS = ['blog']
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-ABOUT_PAGE_HEADER = 'Nice to meet you.'
+
 
 # DEFAULTS
+USE_FOLDER_AS_CATEGORY = False
 DEFAULT_LANG = 'en'
-DEFAULT_CATEGORY = 'misc'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
 DEFAULT_PAGINATION = False
@@ -41,7 +46,7 @@ TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
 
 MARKUP = ('md', 'ipynb')
 
-# PLUGINS
+# Plugins
 PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
 PLUGINS = ['assets', 'pelican-ipynb.liquid', 'pelican_dynamic', 'sitemap']
 
@@ -66,11 +71,6 @@ NOTEBOOK_DIR = 'notebooks'
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 
-TWITTER_CARDS = True
-TWITTER_NAME = "gjreda"
-FACEBOOK_SHARE = True
-HACKER_NEWS_SHARE = True
-
 #### Analytics
 GOOGLE_ANALYTICS = 'UA-34295039-1'
 DOMAIN = "gregreda.com"
@@ -78,3 +78,9 @@ DOMAIN = "gregreda.com"
 # Other
 CACHE_CONTENT = False
 AUTORELOAD_IGNORE_CACHE = True
+
+# Social Sharing
+TWITTER_CARDS = True
+TWITTER_NAME = "gjreda"
+FACEBOOK_SHARE = True
+HACKER_NEWS_SHARE = True
