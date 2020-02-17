@@ -13,13 +13,11 @@ Summary: Greg Reda is a data scientist and software engineer who occassionally w
 </style>
 <img class="round" src="/images/headshot.jpg" alt="{{ SITENAME }}">
 
-Hi! I'm Greg Reda, a data scientist and software engineer based in San Francisco. I'm currently a machine learning engineer at [Instacart](https://inst.cr/t/wqze6Gpuz). I've also worked at [Sprout Social](https://sproutsocial.com/) and [GrubHub](https://www.grubhub.com/).
+Hi! I'm Greg Reda, a data scientist and software engineer based in San Francisco. I'm currently a machine learning engineer at [Instacart](https://inst.cr/t/wqze6Gpuz).
 
-I enjoy using data, statistics, and machine learning to help companies create great products. I also enjoy building and leading data science teams, having done so at both [Sprout Social](https://sproutsocial.com) and [GrubHub](https://grubhub.com).
+I enjoy using data, statistics, and machine learning to help companies create great products and drive strategy. I also enjoy building and leading data science teams, having done so at both [Sprout Social](https://sproutsocial.com) and [GrubHub](https://grubhub.com).
 
-Much of my free time is spent exploring and cycling the Bay Area.
-
-I'm a huge music nerd, enjoying everything from jazz to punk rock to synthwave. Here's a list of some of my favorite albums.
+Much of my free time is spent hiking and cycling the Bay Area, as well as listening to all sorts of punk, rock, synth, and jazz music.
 
 I'm a proud Chicagoan, having grown up and spent most of my life there.
 
