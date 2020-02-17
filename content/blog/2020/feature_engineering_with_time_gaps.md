@@ -11,7 +11,7 @@ Alternative titles?:
 - Feature engineering with irregular intervals
 -->
 
-I have a tendency to forget how to write particular blocks of code when I haven't written them in a while. Here's a common machine learning preprocessing task that falls into that category.
+I tend to forget how to write certain blocks of code when I haven't written them in a while. Here's a common machine learning preprocessing task that falls into that category.
 
 Imagine you have some event logs that capture an entity ID (user, store, ad, etc), timestamp, an event name, and maybe some other details. The data looks something like this:
 
