@@ -19,7 +19,7 @@ I'm Greg Reda, a software engineer and data scientist based in San Francisco.
 
 - I'm currently a Machine Learning Engineer on the Delivery Logistics team at [Instacart](https://inst.cr/t/wqze6Gpuz), where I work on real-time order fulfillment systems.
 
-- Previously, I built and led Data Science at [Sprout Social](https://sproutsocial.com/), where I oversaw the data science, data engineering, and analytics functions across the company.
+- Previously, I built and led the data science team at [Sprout Social](https://sproutsocial.com/), where I oversaw the data science, data engineering, and analytics roles across the company.
 
 - I'm a proud Chicagoan, having grown up and spent most of my life there.
 
