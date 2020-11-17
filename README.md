@@ -1,7 +1,9 @@
 gregreda.com
 ============
 
-[![Build Status](https://travis-ci.org/gjreda/gregreda.com.svg?branch=master)](https://travis-ci.org/gjreda/gregreda.com)
+Code and content for my website.
+
+Build and deployment are handled via Github Apps, S3, and Cloudfront.
 
 Built with:
 - [Pelican](https://github.com/getpelican/pelican/)
