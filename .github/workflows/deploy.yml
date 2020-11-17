@@ -19,8 +19,8 @@ jobs:
         aws-region: us-east-1
     - name: Build submodules
       run: |
-      "sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules"
-      git submodule update --init --recursive
+        sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+        git submodule update --init --recursive
     - name: Install dependencies
       run: |
         sudo apt-get install -qq pandoc
