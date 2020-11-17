@@ -14,8 +14,8 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with: 
-        aws-access-key-id: {{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: {{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     - name: Build submodules
       run: |
@@ -35,4 +35,4 @@ jobs:
     - name: Invalidate Cloudfront cache
       run: |
         aws configure set preview.cloudfront true
-        aws cloudfront create-invalidation --distribution-id {{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
