@@ -31,7 +31,7 @@ jobs:
         pelican content
     - name: Deploy to S3
       run: |
-        aws s3 sync output/. s3://dev.gregreda.com --acl public-read
+        aws s3 sync output/. s3://www.gregreda.com --acl public-read
     - name: Invalidate Cloudfront cache
       run: |
         aws configure set preview.cloudfront true
