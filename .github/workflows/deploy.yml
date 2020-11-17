@@ -19,7 +19,7 @@ jobs:
         aws-region: us-east-1
     - name: Build submodules
       run: |
-      sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+      "sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules"
       git submodule update --init --recursive
     - name: Install dependencies
       run: |
@@ -35,4 +35,4 @@ jobs:
     - name: Invalidate Cloudfront cache
       run: |
         aws configure set preview.cloudfront true
-        aws cloudfront create-invalidation --distribution-id {{ }} --paths "/*"
+        aws cloudfront create-invalidation --distribution-id {{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
