@@ -6,7 +6,7 @@ SITENAME = u'Greg Reda'
 SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Los_Angeles'
 TITLE = u"Greg Reda"
-DESCRIPTION = u"Greg Reda is a data scientist and software engineer based in San Francisco"
+DESCRIPTION = u"Greg Reda is a software engineer and data scientist based in San Francisco"
 ABOUT_PAGE_HEADER = 'Nice to meet you.'
 
 # Variables for theme
@@ -82,5 +82,5 @@ AUTORELOAD_IGNORE_CACHE = True
 # Social Sharing
 TWITTER_CARDS = True
 TWITTER_NAME = "gjreda"
-FACEBOOK_SHARE = True
+FACEBOOK_SHARE = False 
 HACKER_NEWS_SHARE = False
