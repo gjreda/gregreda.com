@@ -6,11 +6,8 @@
 
 {% block content %}
 
-  <h1 class="article-title">Posts tagged with: {{ tag }}</h1>
-  {% for article in articles %}
-      <h2 class="article-title pull-left"><a href="/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a></h2>
-      <h5 class="article-date pull-right">{{ article.date|strftime('%b %d, %Y') }}</h5>
-      <hr class="large">
+  <h1>Posts tagged with: {{ tag }}</h1>
+  {% for article in articles[:5] %}
+  <h5>{{ article.date.strftime('%b %Y') }} // <a href=/{{ article.url }}>{{ article.title }}</a></h5>
   {% endfor %}
-  <hr class="small"></hr>
 {% endblock %}

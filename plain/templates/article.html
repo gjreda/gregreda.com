@@ -41,8 +41,7 @@
 
   <!-- Article Headers
   ================================================================== -->
-  <h1><a href="/{{ article.url }}" title="Permalink to {{ article.title }}">{{article.title}}</a></h1>
-  <!-- <h3>{{ article.category }}</h3> -->
+  <h1>{{article.title}}</h1>
   <h6>{{ article.date|strftime('%B %d, %Y') }}
     {% if article.tags %}
     //
@@ -57,6 +56,4 @@
   <!-- Article Content
   ================================================================== -->
   {{ article.content }}
-
-  <hr class="small"></hr>
 {% endblock %}
