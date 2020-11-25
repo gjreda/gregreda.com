@@ -12,6 +12,7 @@ ABOUT_PAGE_HEADER = 'Nice to meet you.'
 # Variables for theme
 THEME = 'plain/'
 LOGO_IMAGE = '/images/logo.jpg'
+FAVICON_IMAGE = '/images/favicon.ico'
 COPYRIGHT_START_YEAR = 2013
 NAVIGATION = [
     {'site': 'twitter', 'user': 'gjreda', 'url': 'https://twitter.com/gjreda'},

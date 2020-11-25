@@ -47,9 +47,7 @@
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="{{ FAVICON_IMAGE }}">
-	<link rel="apple-touch-icon" href="/theme/images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/theme/images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/theme/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" href="{{ LOGO_IMAGE }}">
 
 </head>
 <body>
@@ -57,7 +55,7 @@
 	================================================== -->
 	<div class="container">
     {% include 'navbar.html' %}
-		<section id="content" class="ten columns">
+		<section id="content">
 			{% block content %}{% endblock %}
 		</section>
 		{% include 'footer.html' %}
