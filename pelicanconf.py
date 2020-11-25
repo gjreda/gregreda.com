@@ -10,7 +10,7 @@ DESCRIPTION = u"Greg Reda is a software engineer and data scientist based in San
 ABOUT_PAGE_HEADER = 'Nice to meet you.'
 
 # Variables for theme
-THEME = 'void/'
+THEME = 'plain/'
 LOGO_IMAGE = '/images/logo.jpg'
 COPYRIGHT_START_YEAR = 2013
 NAVIGATION = [
@@ -48,7 +48,7 @@ MARKUP = ('md', 'ipynb')
 
 # Plugins
 PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
-PLUGINS = ['assets', 'pelican-ipynb.liquid', 'pelican_dynamic', 'sitemap']
+PLUGINS = ['pelican-ipynb.liquid', 'pelican_dynamic', 'sitemap']
 
 SITEMAP = {
     'format': 'xml',
@@ -66,7 +66,6 @@ SITEMAP = {
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
-# EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
@@ -82,5 +81,3 @@ AUTORELOAD_IGNORE_CACHE = True
 # Social Sharing
 TWITTER_CARDS = True
 TWITTER_NAME = "gjreda"
-FACEBOOK_SHARE = False 
-HACKER_NEWS_SHARE = False

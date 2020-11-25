@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{{ SITENAME }} | Posts tagged with: {{ tag }}{% endblock %}
+{% block metadesc %}All posts on {{ SITENAME }} tagged with {{ tag }}{% endblock %}
+
+{% block header %}{% endblock %}
+
+{% block content %}
+
+  <h1 class="article-title">Posts tagged with: {{ tag }}</h1>
+  {% for article in articles %}
+      <h2 class="article-title pull-left"><a href="/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a></h2>
+      <h5 class="article-date pull-right">{{ article.date|strftime('%b %d, %Y') }}</h5>
+      <hr class="large">
+  {% endfor %}
+  <hr class="small"></hr>
+{% endblock %}

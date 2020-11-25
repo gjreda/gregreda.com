@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  {% block header %}{% endblock %}
+
+	<!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>{% block title %}{% endblock %}</title>
+
+  <meta name="description" content="{% block metadesc %}{% endblock %}">
+  <meta name="author" content="{{ AUTHOR }}">
+  <meta name="copyright" content="&copy; Copyright {{ SITENAME }}, {{ COPYRIGHT_START_YEAR }} to present">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+
+  {% if FEED_ALL_ATOM %}
+  <!-- Feeds
+  ================================================== -->
+  <link rel="alternate" type="application/atom+xml" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" title="{{ SITENAME }} Full Atom Feed">
+  {% endif %}
+
+  {% if TWITTER_CARDS %}
+  {% block twittercards %}{% endblock %}
+  {% endif %}
+
+  {% if article %}
+    {% if article.styles %}
+  <!-- Pelican Dynamic - for embedding D3 charts
+  =================================================== -->
+        {% for style in article.styles %}
+  {{ style }}
+          {% endfor %}
+      {% endif %}
+  {% endif %}
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{{ FAVICON_IMAGE }}">
+	<link rel="apple-touch-icon" href="/theme/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/theme/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/theme/images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+    {% include 'navbar.html' %}
+		<section id="content" class="ten columns">
+			{% block content %}{% endblock %}
+		</section>
+		{% include 'footer.html' %}
+	</div><!-- container -->
+
+	{% include "analytics.html" %}
+
+  <script type="text/javascript">
+    $("a").on('click', function(e) {
+      var url = $(this).attr("href");
+      console.log(url);
+      if (e.currentTarget.host != window.location.host) {
+        _gaq.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
+        if (e.metaKey || e.ctrlKey) {
+          var newtab = true;
+        }
+        if (!newtab) {
+          e.preventDefault();
+          setTimeout('document.location = "' + url + '"', 100);
+        }
+      }
+    });
+  </script>
+</body> <!-- End body -->
+
+<!-- JavaScript
+=================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+{% if TWITTER_NAME or TWITTER_CARDS %}
+<!-- twitter.js
+==================================================================== -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+{% endif %}
+
+{% if article %}
+    {% if article.scripts %}
+<!-- Pelican Dynamic - for embedding D3 charts
+=================================================== -->
+        {% for script in article.scripts %}
+{{ script }}
+        {% endfor %}
+    {% endif %}
+{% endif %}
+</html>

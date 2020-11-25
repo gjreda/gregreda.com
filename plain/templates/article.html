@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block metadesc %}{{ article.description|e }}{% endblock %}
+{% block affiliate %}{{ article.affiliate_link|safe }}{% endblock %}
+
+{% block header %}
+<!-- Extra Header for IPython Notebooks
+================================================== -->
+  {% if EXTRA_HEADER %}
+    {{ EXTRA_HEADER }}
+  {% endif %}
+
+  <style>
+    div.input_prompt { display: none; }
+    div.prompt { display: none; }
+  </style>
+{% endblock %}
+
+{% block twittercards %}
+	<!-- Facebook Open Graph
+  ================================================== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ article.title }}">
+  <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
+  <meta property="og:description" content="{{ article.description|e }}">
+  <meta property="og:site_name" content="{{ SITENAME }}">
+  <meta property="og:image" content="{{ SITEURL }}{{ AVATAR }}">
+
+  <!-- Twitter Cards
+  ================================================== -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ TWITTER_NAME }}">
+  <meta name="twitter:creator" content="@{{ TWITTER_NAME }}">
+  <meta name="twitter:domain" content="{{ DOMAIN }}">
+  <meta name="twitter:image" content="{{ SITEURL }}{{ LOGO_IMAGE }}">
+  <meta name="twitter:title" content="{{ article.title }}">
+  <meta name="twitter:description" content="{{ article.description|e }}">
+{% endblock %}
+
+{% block content %}
+
+  <!-- Article Headers
+  ================================================================== -->
+  <h1><a href="/{{ article.url }}" title="Permalink to {{ article.title }}">{{article.title}}</a></h1>
+  <!-- <h3>{{ article.category }}</h3> -->
+  <h6>{{ article.date|strftime('%B %d, %Y') }}
+    {% if article.tags %}
+    //
+    {% for tag in article.tags %}
+    <a href="/{{ tag.url }}" rel="tag" title="Posts tagged with {{ article.tag }}">{{ tag }}</a>
+    {{ ", " if not loop.last }}
+    {% endfor %}
+    {% endif %}
+  </h6>
+  <hr class="small"></hr>
+
+  <!-- Article Content
+  ================================================================== -->
+  {{ article.content }}
+
+  <hr class="small"></hr>
+{% endblock %}

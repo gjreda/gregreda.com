@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}{{ SITENAME }} | {{ page.title }}{% endblock %}
+{% block metadesc %}{{ page.description|e }}{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block twittercards %}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ TWITTER_NAME }}">
+  <meta name="twitter:creator" content="@{{ TWITTER_NAME }}">
+  <meta name="twitter:domain" content="{{ DOMAIN }}">
+  <meta name="twitter:image" content="{{ SITEURL }}{{ AVATAR }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description|e }}">
+{% endblock %}
+
+{% block content %}
+
+  <!-- <h1 class="article-title"><a href="/{{ page.url }}" title="Permalink to {{ page.title }}">{{page.title}}</a></h1> -->
+
+  <div class="article-content">
+    {{ page.content }}
+  </div>
+  <hr class="large">
+
+{% endblock %}
