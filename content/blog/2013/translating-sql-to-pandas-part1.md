@@ -2,7 +2,6 @@ Title: Translating SQL to Pandas, Part 1
 Date: 2013-01-23
 Slug: translating-sql-to-pandas-part1
 Tags: sql, python, pandas
-Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1449319793&asins=1449319793&linkId=FKL6YFFR7RIEILGT&show_border=true&link_opens_in_new_window=true"></iframe>
 
 _I wrote a three part pandas tutorial for SQL users that you can find [here](http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/)_.
 

@@ -2,7 +2,6 @@ Title: More web scraping with Python (and a map)
 Date: 2013-04-29
 Slug: more-web-scraping-with-python
 Tags: scraping, python, data, tutorial, maps
-Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1491910291&asins=1491910291&linkId=PJJ5LM64VYPKSWVT&show_border=true&link_opens_in_new_window=true"></iframe>
 
 _This is a follow-up to my [previous post](/2013/03/03/web-scraping-101-with-python/ "Web Scraping 101 with Python") about web scraping with Python_.
 

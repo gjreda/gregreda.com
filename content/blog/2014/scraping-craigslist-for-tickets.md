@@ -3,7 +3,6 @@ Date: 2014-07-27
 Slug: scraping-craigslist-for-tickets
 Tags: scraping, tutorial, python, data
 Description: Explaining how to use Python to automate Craigslist searches and send SMS messages for new results.
-Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1491910291&asins=1491910291&linkId=PJJ5LM64VYPKSWVT&show_border=true&link_opens_in_new_window=true"></iframe>
 
 Recently, I've been listening to a lot of lo-fi rock band, [Cloud Nothings](http://en.wikipedia.org/wiki/Cloud_Nothings). Their album, [Here & Nowhere Else](http://www.amazon.com/gp/product/B00HZJH97Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00HZJH97Q&linkCode=as2&tag=gjreda-20&linkId=H7HYP35ZYKFAKH7H), has been [critically lauded](http://www.metacritic.com/music/here-and-nowhere-else/cloud-nothings), including [garnering "Best New Music" from Pitchfork](http://pitchfork.com/reviews/albums/19075-cloud-nothings-here-and-nowhere-else/). As a result, when they came to Chicago's tiny Lincoln Hall in May, tickets sold out in a hurry - well before I found out about the show. Desperately wanting to go, I started checking Craigslist every day or two for tickets.
 
