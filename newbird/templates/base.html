@@ -62,28 +62,10 @@
 	</div><!-- container -->
 
 	{% include "analytics.html" %}
-
-  <script type="text/javascript">
-    $("a").on('click', function(e) {
-      var url = $(this).attr("href");
-      console.log(url);
-      if (e.currentTarget.host != window.location.host) {
-        _gaq.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
-        if (e.metaKey || e.ctrlKey) {
-          var newtab = true;
-        }
-        if (!newtab) {
-          e.preventDefault();
-          setTimeout('document.location = "' + url + '"', 100);
-        }
-      }
-    });
-  </script>
 </body> <!-- End body -->
 
 <!-- JavaScript
 =================================================== -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 {% if article %}
