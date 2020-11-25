@@ -9,7 +9,7 @@ DESCRIPTION = u"Greg Reda is a software engineer and data scientist based in San
 INDEX_PAGE_HEADER = 'Nice to meet you.'
 
 # Variables for theme
-THEME = 'plain/'
+THEME = 'newbird/'
 LOGO_IMAGE = '/images/logo.jpg'
 FAVICON_IMAGE = '/images/favicon.ico'
 COPYRIGHT_START_YEAR = 2013

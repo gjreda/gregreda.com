@@ -10,6 +10,9 @@ newbird is a theme for [Pelican](https://docs.getpelican.com/en/latest/), a stat
 - Jupyter Notebooks are supported via the liquid tags plugin
 - MathJax for adding mathematical notation into posts
 
+## Notably Excluded Features
+- This theme purposefully doesn't include social sharing buttons in order to keep it lightweight
+
 ## Getting Started
 For a working example of this theme, see pelicanconf.py.
 
