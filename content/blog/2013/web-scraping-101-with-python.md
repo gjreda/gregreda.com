@@ -3,7 +3,6 @@ Date: 2013-03-03
 Slug: web-scraping-101-with-python
 Tags: scraping, python, data, tutorial
 Description: A beginner's guide to getting started with web scraping using Python and BeautifulSoup.
-Affiliate_Link: <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=gregrecom-20&marketplace=amazon&region=US&placement=1491910291&asins=1491910291&linkId=PJJ5LM64VYPKSWVT&show_border=true&link_opens_in_new_window=true"></iframe>
 
 _After you're done reading, check out my follow-up to this post [here](/2013/04/29/more-web-scraping-with-python/)._
 

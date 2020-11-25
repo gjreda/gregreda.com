@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}{{ SITENAME }} | Archives{% endblock %}
+{% block metadesc %}{{ DESCRIPTION }}{% endblock %}
+{% block content %}
+
+{% for article in articles[:5] %}
+<h5>{{ article.date.strftime('%b %Y') }} // <a href={{ article.url }}>{{ article.title }}</a></h5>
+{% endfor %}
+
+{% endblock %}

@@ -11,7 +11,9 @@ Summary: Greg Reda is a data scientist and software engineer who occassionally w
     border-radius: 100px;
   }
 </style>
+<center>
 <img class="round" src="/images/headshot.jpg" alt="{{ SITENAME }}">
+</center>
 
 ## Hello 
 

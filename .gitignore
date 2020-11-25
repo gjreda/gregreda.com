@@ -1,3 +1,6 @@
+**/.DS_Store
+**/__pycache__
+**/.vscode
 /_dev/*
 /_code/*
 /content/drafts

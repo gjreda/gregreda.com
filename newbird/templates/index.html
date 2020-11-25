@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Home | {{ SITENAME }}{% endblock %}
+{% block metadesc %}{% endblock %}
+
+{% block header %}
+<style>
+  img.round {
+    border: 2px solid #222;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+  }
+</style>
+{% endblock %}
+{% block content %}
+<h1>{{ INDEX_PAGE_HEADER }}</h1>
+  {% for page in pages %}
+      {% if page.title == 'About' %}
+          {{ page.summary }}
+      {% endif %}
+  {% endfor %}
+
+<h3>Recent Articles</h3>
+{% for article in articles[:10] %}
+<h5>{{ article.date.strftime('%b %Y') }} // <a href=/{{ article.url }}>{{ article.title }}</a></h5>
+{% endfor %}
+
+{% endblock %}

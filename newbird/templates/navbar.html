@@ -1,0 +1,10 @@
+<!-- Navigation
+================================================== -->
+<header>
+  <h1>{{ SITENAME }}</h1>
+  <nav>
+    {% for item in NAV_LINKS %}
+    <a href="{{ item['url'] }}">{{ item['name'] }}</a>{{ " / " if not loop.last }}
+    {% endfor %}
+  </nav> <!-- End navbar -->
+</header>

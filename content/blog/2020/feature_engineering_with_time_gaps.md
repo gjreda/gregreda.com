@@ -2,14 +2,6 @@ Title: Feature Engineering with Time Gaps
 Date: 2020-02-16
 Slug: feature-engineering-with-time-gaps
 Tags: machine learning, data science, pandas, code snippets
-Summary:
-
-<!-- 
-Alternative titles?:
-- Creating time windowed user features in pandas
-- Feature Engineering with time gaps
-- Feature engineering with irregular intervals
--->
 
 I tend to forget how to write certain blocks of code when I haven't written them in a while. Here's a common machine learning preprocessing task that falls into that category.
 

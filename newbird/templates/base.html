@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  {% block header %}{% endblock %}
+
+	<!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>{% block title %}{% endblock %}</title>
+
+  <meta name="description" content="{% block metadesc %}{% endblock %}">
+  <meta name="author" content="{{ AUTHOR }}">
+  <meta name="copyright" content="&copy; Copyright {{ SITENAME }}, {{ COPYRIGHT_START_YEAR }} to present">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+
+  {% if FEED_ALL_ATOM %}
+  <!-- Feeds
+  ================================================== -->
+  <link rel="alternate" type="application/atom+xml" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" title="{{ SITENAME }} Full Atom Feed">
+  {% endif %}
+
+  {% if TWITTER_CARDS %}
+  {% block twittercards %}{% endblock %}
+  {% endif %}
+
+  {% if article %}
+    {% if article.styles %}
+  <!-- Pelican Dynamic - for embedding D3 charts
+  =================================================== -->
+        {% for style in article.styles %}
+  {{ style }}
+          {% endfor %}
+      {% endif %}
+  {% endif %}
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{{ FAVICON_IMAGE }}">
+	<link rel="apple-touch-icon" href="{{ LOGO_IMAGE }}">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+    {% include 'navbar.html' %}
+		<section id="content">
+			{% block content %}{% endblock %}
+		</section>
+		{% include 'footer.html' %}
+	</div><!-- container -->
+
+	{% include "analytics.html" %}
+</body> <!-- End body -->
+
+<!-- JavaScript
+=================================================== -->
+<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+{% if article %}
+    {% if article.scripts %}
+<!-- Pelican Dynamic - for embedding D3 charts
+=================================================== -->
+        {% for script in article.scripts %}
+{{ script }}
+        {% endfor %}
+    {% endif %}
+{% endif %}
+</html>
