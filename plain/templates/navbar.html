@@ -3,9 +3,8 @@
 <header>
   <h1>{{ SITENAME }}</h1>
   <nav>
-    <a href="/">Home</a> /
-    <a href="/blog/">Blog</a> / 
-    <a href="/talks/">Talks</a> /
-    <a href="/about/">About</a>
+    {% for item in NAV_LINKS %}
+    <a href="{{ item['url'] }}">{{ item['name'] }}</a>{{ " / " if not loop.last }}
+    {% endfor %}
   </nav> <!-- End navbar -->
 </header>

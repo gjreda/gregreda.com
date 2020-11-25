@@ -5,7 +5,6 @@ AUTHOR = u'Greg Reda'
 SITENAME = u'Greg Reda'
 SITEURL = 'http://www.gregreda.com'
 TIMEZONE = 'America/Los_Angeles'
-TITLE = u"Greg Reda"
 DESCRIPTION = u"Greg Reda is a software engineer and data scientist based in San Francisco"
 ABOUT_PAGE_HEADER = 'Nice to meet you.'
 
@@ -14,10 +13,11 @@ THEME = 'plain/'
 LOGO_IMAGE = '/images/logo.jpg'
 FAVICON_IMAGE = '/images/favicon.ico'
 COPYRIGHT_START_YEAR = 2013
-NAVIGATION = [
-    {'site': 'twitter', 'user': 'gjreda', 'url': 'https://twitter.com/gjreda'},
-    {'site': 'github', 'user': 'gjreda', 'url': 'https://github.com/gjreda'},
-    {'site': 'linkedin', 'user': 'gjreda', 'url': 'http://linkedin.com/in/gjreda'},
+NAV_LINKS = [
+    {'name': 'Home', 'url': '/'},
+    {'name': 'Blog', 'url': '/blog/'},
+    {'name': 'Talks', 'url': '/talks/'},
+    {'name': 'About', 'url': '/about/'},
 ]
 
 # URL paths
