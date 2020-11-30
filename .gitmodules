@@ -1,9 +1,9 @@
-[submodule "void"]
-    path = void
-    url = git://github.com/gjreda/void.git
 [submodule "pelican-plugins"]
     path = pelican-plugins
     url = git://github.com/gjreda/pelican-plugins.git
 [submodule "pelican_dynamic"]
     path = pelican_dynamic
     url = git://github.com/gjreda/pelican_dynamic.git
+[submodule "newbird"]
+	path = newbird
+	url = https://github.com/gjreda/newbird-pelican-theme.git
