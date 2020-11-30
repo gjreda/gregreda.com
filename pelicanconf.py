@@ -48,8 +48,8 @@ TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
 MARKUP = ('md', 'ipynb')
 
 # Plugins
-PLUGIN_PATHS = ['pelican-plugins', 'pelican_dynamic']
-PLUGINS = ['pelican-ipynb.liquid', 'pelican_dynamic', 'sitemap']
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['pelican-ipynb.liquid', 'sitemap']
 
 SITEMAP = {
     'format': 'xml',
