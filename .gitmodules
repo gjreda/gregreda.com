@@ -7,3 +7,6 @@
 [submodule "pelican_dynamic"]
     path = pelican_dynamic
     url = git://github.com/gjreda/pelican_dynamic.git
+[submodule "newbird"]
+	path = newbird
+	url = https://github.com/gjreda/newbird-pelican-theme.git
