@@ -4,7 +4,16 @@ Slug: web-scraping-finding-the-api
 Tags: scraping, python, data, tutorial
 Description: When a page is rendered client-side, scraping can be difficult. Here’s how to find the API used so you’re able to get the data needed.
 
-**Update**: Sorry folks, it looks like the NBA doesn't make shot log data accessible anymore. The same principles of this post still apply, but the particular example used is no longer functional. I do not intend to rewrite or update this post.
+_This is part of a series of posts I have written about web scraping with Python._
+
+1. [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), which covers the basics of using Python for web scraping.
+2. [Web Scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/), which covers when sites load data client-side with Javascript.
+3. [Asynchronous Scraping with Python](http://www.gregreda.com/2016/10/16/asynchronous-scraping-with-python/), showing how to use multithreading to speed things up.
+4. [Scraping Pages Behind Login Forms](http://www.gregreda.com/2020/11/17/scraping-pages-behind-login-forms/), which shows how to log into sites using Python.
+
+<hr>
+
+**Update**: Sorry folks, it looks like the NBA doesn't make shot log data accessible anymore. The same principles of this post still apply, but the particular example used is no longer functional. I do not intend to rewrite this post.
 
 <hr>
 

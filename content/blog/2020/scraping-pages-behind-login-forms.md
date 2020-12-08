@@ -3,6 +3,15 @@ slug: scraping-pages-behind-login-forms
 date: 2020-11-17
 tags: scraping, python, tutorial
 
+_This is part of a series of posts I have written about web scraping with Python._
+
+1. [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), which covers the basics of using Python for web scraping.
+2. [Web Scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/), which covers when sites load data client-side with Javascript.
+3. [Asynchronous Scraping with Python](http://www.gregreda.com/2016/10/16/asynchronous-scraping-with-python/), showing how to use multithreading to speed things up.
+4. [Scraping Pages Behind Login Forms](http://www.gregreda.com/2020/11/17/scraping-pages-behind-login-forms/), which shows how to log into sites using Python.
+
+<hr>
+
 The other day a friend asked whether there was an easier way for them to get 1000+ Goodreads reviews without manually doing it one-by-one. It sounded like a fun little scraping project to me.
 
 One small complexity was that the user's book reviews were not public, which meant you needed to log into Goodreads to access them. Thankfully, with a little understanding of how HTML forms work, Python's [requests](https://requests.readthedocs.io/en/master/) library makes this doable with a few lines of code.

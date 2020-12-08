@@ -4,7 +4,14 @@ Slug: web-scraping-101-with-python
 Tags: scraping, python, data, tutorial
 Description: A beginner's guide to getting started with web scraping using Python and BeautifulSoup.
 
-_After you're done reading, check out my follow-up to this post [here](/2013/04/29/more-web-scraping-with-python/)._
+_This is part of a series of posts I have written about web scraping with Python._
+
+1. [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), which covers the basics of using Python for web scraping.
+2. [Web Scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/), which covers when sites load data client-side with Javascript.
+3. [Asynchronous Scraping with Python](http://www.gregreda.com/2016/10/16/asynchronous-scraping-with-python/), showing how to use multithreading to speed things up.
+4. [Scraping Pages Behind Login Forms](http://www.gregreda.com/2020/11/17/scraping-pages-behind-login-forms/), which shows how to log into sites using Python.
+
+<hr>
 
 Yea, yea, I know I said I was going to [write more](http://www.gregreda.com/2013/01/23/translating-sql-to-pandas-part1/) on [pandas](http://pandas.pydata.org), but recently I've had a couple friends ask me if I could teach them how to scrape data.  While they said they were able to find a ton of resources online, all assumed some level of knowledge already.  Here's my attempt at assuming a very minimal knowledge of programming.
 

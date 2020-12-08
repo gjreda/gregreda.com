@@ -4,6 +4,15 @@ Slug: asynchronous-scraping-with-python
 Tags: scraping, python, tutorial
 Description: Instead of scraping or doing other work synchronously, this post shows how to use Python3's concurrent.futures library to do work asynchronously -- more than one at a time.
 
+_This is part of a series of posts I have written about web scraping with Python._
+
+1. [Web Scraping 101 with Python](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), which covers the basics of using Python for web scraping.
+2. [Web Scraping 201: Finding the API](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/), which covers when sites load data client-side with Javascript.
+3. [Asynchronous Scraping with Python](http://www.gregreda.com/2016/10/16/asynchronous-scraping-with-python/), showing how to use multithreading to speed things up.
+4. [Scraping Pages Behind Login Forms](http://www.gregreda.com/2020/11/17/scraping-pages-behind-login-forms/), which shows how to log into sites using Python.
+
+<hr>
+
 Previously, I've written about the [basics of scraping](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/) and how you can [find API calls](http://www.gregreda.com/2015/02/15/web-scraping-finding-the-api/) in order to fetch data that isn't easily downloadable.
 
 For simplicity, the code in these posts has always been synchronous -- given a list of URLs, we process one, then the next, then the next, and so on. While this makes for code that's straight-forward, it can also be slow.
