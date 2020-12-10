@@ -9,7 +9,7 @@ If you're using a static site generator for your site and hosting it on it on S3
 
 ## Setup
 
-If you've already set up Travis CI to deploy your static site to S3, switching to Github Actions won't be very difficult.
+If you've already set up Travis CI to deploy your site to S3, switching to Github Actions won't be very difficult.
 
 Actions are defined in YAML and need to live at a path of `.github/workflows` within your repo. We'll name ours `deploy.yml`, so its path will be `.github/workflows/deploy.yml`.
 
