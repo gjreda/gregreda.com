@@ -4,6 +4,10 @@ Slug: static-site-deployments
 Tags: pelican, tutorial, travis, github
 Description: A tutorial on setting up TravisCI and GitHub to automate deployment of your static website.
 
+**Update:** As of December 2020, Travis CI has stopped being free for open source projects. If you've been using Travis to deploy your static site, I recommend migrating to Github Actions. I've written a post about how to do so [here](/2020/12/09/deploying-static-sites-with-github-actions/).
+
+<hr>
+
 I’m an unabashed supporter of “Keep It Simple, Stupid” solutions - it’s the reason I use [Pelican](http://docs.getpelican.com/en/3.5.0/) for this website and host it on [S3](http://aws.amazon.com/s3/).
 
 However, I haven’t been completely satisfied with the process of writing a new post or making changes to [my theme](https://github.com/gjreda/void). It’s felt repetitive - make a change, generate site, check change, regenerate site, and eventually push to S3. Due to the extra steps of generating and pushing, I never felt able to focus on just the change at hand.
