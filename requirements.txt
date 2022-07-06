@@ -13,7 +13,7 @@ enum34==1.1.6
 feedgenerator==1.9
 functools32==3.2.3.post2
 gnureadline==6.3.3
-html5lib==0.9999999
+html5lib==0.999999999
 ipykernel==4.5.2
 ipython==5.2.2
 ipython-genutils==0.1.0
