@@ -49,7 +49,7 @@ MARKUP = ('md', 'ipynb')
 
 # Plugins
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['pelican-ipynb.liquid', 'sitemap']
+PLUGINS = ['sitemap']
 
 SITEMAP = {
     'format': 'xml',
