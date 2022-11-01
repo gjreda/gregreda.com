@@ -40,7 +40,7 @@ for f in files:
     df['game_id'] = f.replace('.psv', '')
     games.append(df)
 
-print 'Read {0} games'.format(len(games))
+print('Read {0} games'.format(len(games)))
 ```
 ```output
 Read 2931 games
