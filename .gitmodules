@@ -1,6 +1,3 @@
-[submodule "pelican-plugins"]
-    path = pelican-plugins
-    url = https://github.com/gjreda/pelican-plugins.git
 [submodule "newbird"]
     path = newbird
     url = https://github.com/gjreda/newbird-pelican-theme.git

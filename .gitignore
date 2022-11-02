@@ -2,7 +2,6 @@
 **/__pycache__
 **/.vscode
 **/.idea
-/_dev/*
 /_code/*
 /content/drafts
 /output/
