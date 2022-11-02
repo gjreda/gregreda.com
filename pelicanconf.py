@@ -47,10 +47,6 @@ TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
 
 MARKUP = ('md', 'ipynb')
 
-# Plugins
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap']
-
 SITEMAP = {
     'format': 'xml',
     'priorities': {
