@@ -546,6 +546,9 @@ In what percentage of simulations was "after" better than "normal" though?
 print("3P% after offensive rebounds was more successful "
       "in {0:.1f}% of simulations").format((delta_samples > 0).mean() * 100)
 ```
+```output
+3P% after offensive rebounds was more successful in 83.1% of simulations
+```
 
 Looks like Jay Bilas is pretty right about this one. While the absolute difference in 3P% is small, those after an offensive rebound were more successful in about 83% of our simulations.
 
