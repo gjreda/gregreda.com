@@ -9,7 +9,7 @@ DESCRIPTION = u"Greg Reda is a software engineer and data scientist based in San
 INDEX_PAGE_HEADER = 'Nice to meet you.'
 
 # Variables for theme
-THEME = 'newbird/'
+THEME = 'theme/'
 LOGO_IMAGE = '/images/logo.jpg'
 FAVICON_IMAGE = '/images/favicon.ico'
 COPYRIGHT_START_YEAR = 2013
@@ -42,8 +42,8 @@ DEFAULT_PAGINATION = False
 
 # FEEDS
 FEED_ALL_ATOM = "feeds/all.atom.xml"
-CATEGORY_FEED_ATOM = "feeds/category/%s.atom.xml"
-TAG_FEED_ATOM = "feeds/tag/%s.atom.xml"
+CATEGORY_FEED_ATOM = "feeds/category/{slug}.atom.xml"
+TAG_FEED_ATOM = "feeds/tag/{slug}.atom.xml"
 
 MARKUP = ('md', 'ipynb')
 
@@ -73,7 +73,6 @@ DOMAIN = "gregreda.com"
 
 # Other
 CACHE_CONTENT = False
-AUTORELOAD_IGNORE_CACHE = True
 
 # Social Sharing
 TWITTER_CARDS = True
