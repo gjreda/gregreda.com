@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+{% block metadesc %}{{ DESCRIPTION }}{% endblock %}
+{% block content %}
+
+  {% for article in articles %}
+    {% if article.status != 'draft' %}
+    <h2 class="post"><a href="/{{ article.url }}" title="{{ article.title }}">{{ article.title }}</a></h2>
+    <h5 class="meta">{{ article.date|strftime('%B %Y') }}</h5>
+    {% endif %}
+  {% endfor %}
+
+{% endblock %}
