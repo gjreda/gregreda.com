@@ -32,9 +32,22 @@ header img {
 	width: var(--logo-img-width);
 	border: 1px solid var(--nc-tx-2);
 }
-header nav {width: calc(100% - var(--logo-img-width)); text-align: right;}
-header nav a {margin: 0 1.5%; color: #1E90FF; text-decoration: none; transition: all .3s;}
-header nav a:hover {color: #00008B; transition: all .3s;}
+
+header nav {
+	width: calc(100% - var(--logo-img-width));
+	text-align: right;
+}
+header nav a {
+	margin: 0 1.5%;
+	color: var(--nc-tx-2);
+	font-family: Menlo, Consolas, monospace;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+header nav a:hover {
+	color: var(--nc-lk-2);
+	transition: all .3s;
+}
 
 img.headshot {
 	display: block;
