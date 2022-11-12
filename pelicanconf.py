@@ -13,12 +13,6 @@ THEME = 'theme/'
 LOGO_IMAGE = '/images/logo.jpg'
 FAVICON_IMAGE = '/images/favicon.ico'
 COPYRIGHT_START_YEAR = 2013
-NAV_LINKS = [
-    {'name': 'Home', 'url': '/'},
-    {'name': 'Blog', 'url': '/blog/'},
-    {'name': 'Talks', 'url': '/talks/'},
-    {'name': 'About', 'url': '/about/'},
-]
 
 # URL paths
 AUTHOR_SAVE_AS = ''  # I'm the only author

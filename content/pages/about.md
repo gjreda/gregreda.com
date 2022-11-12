@@ -1,11 +1,13 @@
 Title: About
-Summary: Greg Reda is a data scientist and software engineer who occasionally writes things on this website.
+Summary: Greg Reda is a <strike>data scientist and software engineer</strike> person who occasionally writes things on this website.
 
 <img class="headshot" src="/images/headshot.jpg" alt="{{ SITENAME }}">
 
 ## Hello 
 
-I'm Greg Reda, a software engineer and data scientist based in San Francisco.
+I'm Greg Reda, a person living in San Francisco with my spouse and son.
+
+By trade, I've been a software engineer and data scientist. I've predominantly worked in startups of various sizes.
 
 - I'm currently taking a small career break. I'm still tinkering and programming.
 
