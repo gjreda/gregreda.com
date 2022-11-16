@@ -100,7 +100,35 @@ footer {
 	margin-top: 2em;
 	border-top: 1px solid var(--nc-bg-3);
 }
-footer section {max-width: 1000px; margin: auto; padding: 0 2%;}
+footer section {
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 2%;
+}
+footer .container {
+	display: flex;
+	flex-direction: row;
+}
+footer .left {
+	max-width: 200px;
+	margin: auto;
+}
+footer .right {
+	max-width: 200px;
+	margin: auto;
+}
+footer ul { padding-left: 0; }
+footer li { list-style-type: none; }
+footer a {
+	margin: 0 1.5%;
+	color: var(--nc-tx-2);
+	font-family: Menlo, Consolas, monospace;
+	text-decoration: none;
+}
+footer a:hover {
+	color: var(--nc-lk-2);
+	transition: all .3s;
+}
 
 code,kbd,pre,samp {
 	background: var(--nc-bg-2);
