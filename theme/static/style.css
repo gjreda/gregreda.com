@@ -3,6 +3,8 @@
 :root {
 	--nc-tx-1: #000000;
     --nc-tx-2: #1A1A1A;
+	--caption-tx-color: #484848;
+	--caption-tx-size: 14px;
     --nc-bg-1: #FEFEFE;
     --nc-bg-2: #F6F8FA;
     --nc-bg-3: #E5E7EB;
@@ -92,6 +94,10 @@ blockquote {
 	padding: 1.5em;
 	background: var(--nc-bg-2);
 	border-left: 5px solid var(--nc-bg-3);
+}
+figcaption {
+	color: var(--caption-tx-color);
+	font-size: var(--caption-tx-size);
 }
 
 footer {
