@@ -5,7 +5,7 @@ tags: life, meta
 
 I had a heart attack earlier this year. A ["widow maker" heart attack](https://en.wikipedia.org/wiki/Left_anterior_descending_artery#Widow_maker). I fell into cardiac arrest and was clinically dead for a couple of minutes. I'm incredibly fortunate two nurses happened to be nearby. They defibrillated me and administered CPR until the ambulance arrived and took me to the hospital. Those nurses quite literally saved my life.
 
-In 2019, I crashed my bike while descending a mountain road at 30mph. I went over the handlebars, cracked my helmet on the pavement, and slid for some time. A mother and daughter found me trying to get back on my bike and ride home. They kindly called an ambulance, then my wife, and waited with me. I don’t really remember the wait, ambulance ride, or hospital visit due to concussion.<sup>1</sup> I've only ridden my bike twice since.
+In 2019, I crashed my bike while descending a mountain road at 30mph. I went over the handlebars, cracked my helmet on the pavement, and slid for some time. A mother and daughter found me trying to get back on my bike and ride home. They kindly called an ambulance, then my wife, and waited with me. I don’t really remember the wait, ambulance ride, or hospital visit due to the concussion.<sup>1</sup> I've only ridden my bike twice since.
 
 In 2018, I was diagnosed with [chronic myelogenous leukemia](https://en.wikipedia.org/wiki/Chronic_myelogenous_leukemia) (CML). Cancer. Fortunately, it was the best possible kind of cancer: easily manageable with targeted medication (though as of now, incurable). Thanks to the advent of [Bcr-Abl tyrosine kinase inhibitors](https://en.wikipedia.org/wiki/Bcr-Abl_tyrosine-kinase_inhibitor), it shouldn’t effect my lifespan. Still, that word - cancer - carries a lot of weight.
 
@@ -27,10 +27,10 @@ When I crashed my bike, I was working my way back into that fitness. My wife and
 
 <figure>
 <img src="/images/sf-skyline-from-fort-point.jpg" alt="Looking back at Alcatraz and the San Francisco skyline from Fort Point. I had the heart attack less than an hour later. I don't remember taking this picture.">
-<figcaption>Looking back at Alcatraz and the San Francisco Skyline from Fort Point. I had the heart attack about 30 minutes later. I don't remember taking this picture.</figcaption>
+<figcaption>Looking back at Alcatraz and the San Francisco skyline from Fort Point. I had the heart attack about 30 minutes later. I don't remember taking this picture.</figcaption>
 </figure>
 
-The heart attack came at the end of a 3.5 mile run at Crissy Field. Again, I was working my way back into that fitness I’d first lost when the CML diagnosis came, and then never fully gained back after being scared off my bike.
+The heart attack came at the end of a 3.5-mile run at Crissy Field. Again, I was working my way back into that fitness I’d first lost when the CML diagnosis came, and then never fully gained back after being scared off my bike.
 
 ### Why am I writing this?
 
@@ -42,7 +42,7 @@ I've never been able to figure out the point of publishing them. It felt like th
 
 Still, I've found it hard to write much of anything over these last few years. I've wanted to, but it always felt as if there was some imaginary hurdle I couldn't clear. I felt mentally blocked. Those drafts were standing in my way.
 
-The point hit me during an 11 kilometer run through Golden Gate Park. That lush, beautiful scenary I'd dreamed of cycling through when we moved here.
+The point hit me during a recent run through Golden Gate Park. That lush, beautiful scenery I'd dreamed of cycling through when we moved here.
 
 Those unpublished drafts - and this published one - are for me. They've allowed me to let it all out. To process it. To begin moving forward.
 
@@ -58,9 +58,9 @@ Last week I ran a 5k in 26:18, an 8:30 per mile pace. This morning I ran a 10k i
 
 Progress.
 
-It's been a long road back, but I'm writing this to remind myself - and maybe you too - that goals are achieved by slow and steady progress. There are no quick fixes for physical and mental health. But you can work your way to where you want to be.
+It's been a long road back, but I'm writing this to remind myself - and maybe you too - that goals are achieved by slow and steady progress. There are no quick fixes for physical and mental health. But you can work your way to where you want to be, little by little over time.
 
-This post is for me. It's me allowing myself to be proud of the mental and physical work I've put in these last few years. And reminding my future self - and maybe you too - that progress is made little by little over time.
+This post is for me. It's me allowing myself to be proud of the mental and physical work I've put in these last few years.
 
 <hr>
 
