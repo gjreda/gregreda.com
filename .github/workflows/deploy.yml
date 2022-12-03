@@ -17,10 +17,12 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
-    - name: Build submodules
-      run: |
-        sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-        git submodule update --init --recursive
+    # https://github.com/actions/checkout/issues/116#issuecomment-644419389
+    - name: Checkout submodules
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_PRIVATE_SUBMODULES }}
+        submodules: recursive
     - name: Install dependencies
       run: |
         sudo apt-get install -qq pandoc
