@@ -1,0 +1,3 @@
+[submodule "waldo"]
+	path = waldo
+	url = https://github.com/gjreda/waldo

@@ -9,7 +9,8 @@ DESCRIPTION = u"Greg Reda is a software engineer and data scientist based in San
 INDEX_PAGE_HEADER = 'Nice to meet you.'
 
 # Variables for theme
-THEME = 'theme/'
+THEME = 'waldo/'
+HOMEPAGE_IMAGE = '/images/headshot.jpg'
 LOGO_IMAGE = '/images/logo.jpg'
 FAVICON_IMAGE = '/images/favicon.ico'
 COPYRIGHT_START_YEAR = 2013
@@ -39,7 +40,23 @@ FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/category/{slug}.atom.xml"
 TAG_FEED_ATOM = "feeds/tag/{slug}.atom.xml"
 
-MARKUP = ('md', 'ipynb')
+NAVBAR_LINKS = [
+    ('About', '/about'),
+    ('Writing', '/blog'),
+]
+FOOTER_LINKS = [
+    ('Home', '/'),
+    ('About', '/about'),
+    ('Writing', '/blog'),
+    ('Contact', 'mailto:gjreda@gmail.com?subject=Hello+from+the+internet'),
+    ('RSS', FEED_ALL_ATOM),
+    ('Newsletter', 'https://buttondown.email/gjreda'),
+    ('LinkedIn', 'https://linkedin.com/gjreda'),
+    ('Twitter', 'https://twitter.com/gjreda'),
+    ('Github', 'https://github.com/gjreda'),
+]
+
+MARKUP = ('md')
 
 SITEMAP = {
     'format': 'xml',
@@ -55,15 +72,8 @@ SITEMAP = {
     }
 }
 
-CODE_DIR = 'code'
-NOTEBOOK_DIR = 'notebooks'
-
-STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
+STATIC_PATHS = ['images', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
-
-#### Analytics
-GOOGLE_ANALYTICS = 'UA-34295039-1'
-DOMAIN = "gregreda.com"
 
 # Other
 CACHE_CONTENT = False
