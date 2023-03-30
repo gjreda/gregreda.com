@@ -48,11 +48,10 @@ FOOTER_LINKS = [
     ('Home', '/'),
     ('About', '/about'),
     ('Writing', '/blog'),
-    ('Contact', 'mailto:gjreda@gmail.com?subject=Hello+from+the+internet'),
+    ('Contact', 'mailto:gjreda@gmail.com?subject=hello%20from%20the%20internet'),
     ('RSS', FEED_ALL_ATOM),
     ('Newsletter', 'https://buttondown.email/gjreda'),
-    ('LinkedIn', 'https://linkedin.com/gjreda'),
-    ('Twitter', 'https://twitter.com/gjreda'),
+    ('LinkedIn', 'https://linkedin.com/in/gjreda'),
     ('Github', 'https://github.com/gjreda'),
 ]
 
