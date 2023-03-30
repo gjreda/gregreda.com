@@ -1,24 +1,21 @@
 Title: About
-Summary: Greg Reda is a <strike>data scientist and software engineer</strike> person who occasionally writes things on this website.
+Summary: Greg Reda is a human being who occasionally writes things on this website.
 
 <img class="headshot" src="/images/headshot.jpg" alt="{{ SITENAME }}">
 
 ## Hello 
 
-I'm Greg Reda, a person living in San Francisco with my spouse and son.
+Hi, I’m Greg, a human being living in San Francisco with my spouse and son.
 
-By trade, I've been a software engineer and data scientist. I've predominantly worked in startups of various sizes.
+By trade, I've been a software engineer and data scientist, typically working at the intersection of engineering, machine learning, and product. I’ve been both an individual contributor and managed engineering teams at companies like [Instacart](https://instacart.com/), [Sprout Social](https://sproutsocial.com/), and [Grubhub](https://www.grubhub.com/).
 
-- I'm currently taking a small career break. I'm still tinkering and programming.
+I've also spent time advising an NBA team on game prep and player evaluation, a growth stage company on estimating customer lifetime value, and a public company on building data products.
 
-- Previously, I spent three years at [Instacart](https://instacart.com). I worked as a machine learning engineer on real-time systems for delivery logistics.
+You can find my resume [here](https://docs.google.com/document/d/1hJpdKFyDNzT4Hs2Ml7XjIBzmSDFSZTT_cFNYp4sPB3w/edit). I enjoy being a generalist working across a variety of engineering and data roles.
 
-- Prior to Instacart, I built and led the data science function at [Sprout Social](https://sproutsocial.com/). I oversaw data science, data engineering, and analytics roles across the company.
+Outside of work, I'm a runner, pizza maker, and music lover. I'm partial to [Chicago thin-crust](https://www.nytimes.com/2023/03/17/dining/tavern-thin-crust-pizza-chicago.html), the true Chicago style pizza, and I sometimes daydream of owning and running a small pizza shop.
 
-- I'm a proud Chicagoan, having grown up and spent most of my life there.
+### Contact
 
-- Interests: machine learning, statistics, software engineering, economics, sports, music
+You can email me at [gjreda@gmail.com](mailto:gjreda@gmail.com?subject=hello%20from%20the%20internet).
 
-- Hobbies: music, running, pizza making
-
-For more details, you can [view my resume here](https://docs.google.com/document/d/1hJpdKFyDNzT4Hs2Ml7XjIBzmSDFSZTT_cFNYp4sPB3w/edit?usp=sharing).

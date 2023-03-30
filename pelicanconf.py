@@ -52,7 +52,6 @@ FOOTER_LINKS = [
     ('RSS', FEED_ALL_ATOM),
     ('Newsletter', 'https://buttondown.email/gjreda'),
     ('LinkedIn', 'https://linkedin.com/in/gjreda'),
-    ('Twitter', 'https://twitter.com/gjreda'),
     ('Github', 'https://github.com/gjreda'),
 ]
 
