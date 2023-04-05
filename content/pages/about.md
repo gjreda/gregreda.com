@@ -7,7 +7,7 @@ Summary: Greg Reda is a human being who occasionally writes things on this websi
 
 Hi, I’m Greg, a human being living in San Francisco with my spouse and son.
 
-By trade, I've been a software engineer and data scientist, typically working at the intersection of engineering, machine learning, and product. I’ve been both an individual contributor and managed engineering teams at companies like [Instacart](https://instacart.com/), [Sprout Social](https://sproutsocial.com/), and [Grubhub](https://www.grubhub.com/).
+By trade, I've been a software engineer and data scientist, typically working at the intersection of engineering, machine learning, and product. I’ve been an individual contributor and have managed engineering teams at companies like [Instacart](https://instacart.com/), [Sprout Social](https://sproutsocial.com/), and [Grubhub](https://www.grubhub.com/).
 
 I've also spent time advising an NBA team on game prep and player evaluation, a growth stage company on estimating customer lifetime value, and a public company on building data products.
 
