@@ -7,7 +7,7 @@ FIT - [Flexible and Interoperable Transfer](https://developer.garmin.com/fit/pro
 
 Since getting a [Coros](https://coros.com/) running watch in July 2022, I've been exporting the FIT file data to Dropbox after every run.
 
-Having all of this data laying around seemed like a good excuse for a toy project.<sup>1</sup> I haven't done much web programming in the last five years, so I opted to build a little web app with Django.
+Having all of this data laying around seemed like a good excuse for a toy project.<sup>1</sup> I haven't done much web programming in the last five years, so I'm building a little web app with django.
 
 ## FIT data
 
@@ -21,7 +21,7 @@ The data I'm most interested in are the Session, Lap, and Record types from each
 
 To relate this data back to its source file, I've created one additional type called `Activity`. This contains the source filename and date, and also acts as a foreign key on the `Session`, `Lap`, and `Record` tables.
 
-Mapping each of these to a Django model looks like this (I've omitted many fields for the sake of conciseness):
+Mapping each of these to a django model looks like this (I've omitted many fields for the sake of conciseness):
 
 ```python
 from django.db import models
