@@ -162,7 +162,7 @@ I've ommitted the code for `create_session`, `create_lap`, and `create_record`. 
 
 Running the command with `manage.py`:
 ```bash
-$ python manage.py ../Apps/coros
+$ python manage.py ingest_fitfiles ../Apps/coros
 ```
 
 The payoff? Now I can easily write SQL queries against my running data!
