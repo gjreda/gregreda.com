@@ -1,6 +1,6 @@
 title: Prototyping a PDF Chatbot from Scratch
 slug: prototyping-a-pdf-chatbot-from-scratch
-date: 2023-10-24
+date: 2023-10-26
 tags: python, machine learning, ai
 
 As part of my work on [refstudio](https://github.com/refstudio/refstudio), I spent some time prototyping a chatbot that could answer questions about a corpus of PDFs. Tools like [LangChain](https://github.com/langchain-ai/langchain), [LlamaIndex](https://github.com/run-llama/llama_index), [Haystack](https://github.com/deepset-ai/haystack), and others all have built-in abstractions to simplify this task, but I find that building a simplified version from scratch helps me understand the underlying concepts better.
